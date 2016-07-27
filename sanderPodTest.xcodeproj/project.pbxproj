@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C575B5411D48D2D500BA9D01 /* sanderPodTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C575B5401D48D2D500BA9D01 /* sanderPodTest.h */; };
+		C575B5431D48D2D500BA9D01 /* sanderPodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C575B5421D48D2D500BA9D01 /* sanderPodTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C575B53B1D48D2D500BA9D01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C575B5411D48D2D500BA9D01 /* sanderPodTest.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C575B53D1D48D2D500BA9D01 /* libsanderPodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsanderPodTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C575B5401D48D2D500BA9D01 /* sanderPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sanderPodTest.h; sourceTree = "<group>"; };
+		C575B5421D48D2D500BA9D01 /* sanderPodTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sanderPodTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C575B53A1D48D2D500BA9D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C575B5341D48D2D500BA9D01 = {
+			isa = PBXGroup;
+			children = (
+				C575B53F1D48D2D500BA9D01 /* sanderPodTest */,
+				C575B53E1D48D2D500BA9D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C575B53E1D48D2D500BA9D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C575B53D1D48D2D500BA9D01 /* libsanderPodTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C575B53F1D48D2D500BA9D01 /* sanderPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				C575B5401D48D2D500BA9D01 /* sanderPodTest.h */,
+				C575B5421D48D2D500BA9D01 /* sanderPodTest.m */,
+			);
+			path = sanderPodTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C575B53C1D48D2D500BA9D01 /* sanderPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C575B5461D48D2D500BA9D01 /* Build configuration list for PBXNativeTarget "sanderPodTest" */;
+			buildPhases = (
+				C575B5391D48D2D500BA9D01 /* Sources */,
+				C575B53A1D48D2D500BA9D01 /* Frameworks */,
+				C575B53B1D48D2D500BA9D01 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sanderPodTest;
+			productName = sanderPodTest;
+			productReference = C575B53D1D48D2D500BA9D01 /* libsanderPodTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C575B5351D48D2D500BA9D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shansander;
+				TargetAttributes = {
+					C575B53C1D48D2D500BA9D01 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C575B5381D48D2D500BA9D01 /* Build configuration list for PBXProject "sanderPodTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C575B5341D48D2D500BA9D01;
+			productRefGroup = C575B53E1D48D2D500BA9D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C575B53C1D48D2D500BA9D01 /* sanderPodTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C575B5391D48D2D500BA9D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575B5431D48D2D500BA9D01 /* sanderPodTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C575B5441D48D2D500BA9D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C575B5451D48D2D500BA9D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C575B5471D48D2D500BA9D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C575B5481D48D2D500BA9D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C575B5381D48D2D500BA9D01 /* Build configuration list for PBXProject "sanderPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B5441D48D2D500BA9D01 /* Debug */,
+				C575B5451D48D2D500BA9D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C575B5461D48D2D500BA9D01 /* Build configuration list for PBXNativeTarget "sanderPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B5471D48D2D500BA9D01 /* Debug */,
+				C575B5481D48D2D500BA9D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C575B5351D48D2D500BA9D01 /* Project object */;
+}
